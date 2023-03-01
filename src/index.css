@@ -41,10 +41,10 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/vintage-speckles.png);
+  /* background-image: url(../src/assets/3px-tile.png); */
 }
 
-/* ======== GENERAL STYLES ======== */
+/* ===== GENERAL STYLES ===== */
 
 .container {
   width: var(--container-width-lg);
@@ -114,7 +114,7 @@ img {
   object-fit: cover;
 }
 
-/* ======== MEDIA QUERIES ======== */
+/* ===== MEDIA QUERIES ===== */
 
 /* MEDIUM DEVICES */
 @media screen and (max-width: 1024px) {
