@@ -68,7 +68,7 @@ header {
     }
 }
 
-/* MEDIUM DEVICES */
+/* SMALL DEVICES */
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
@@ -76,5 +76,4 @@ header {
     .header__socials, .scroll__down {
         display: none;
     }
-
 }
