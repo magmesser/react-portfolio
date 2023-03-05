@@ -43,7 +43,8 @@ form {
     gap: 1.2rem;
 }
 
-.form__input, .form__text {
+.form__input,
+.form__text {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -63,8 +64,8 @@ form {
 /* MEDIUM DEVICES */
 @media screen and (max-width: 1024px) {
     .container.contact__container {
-       grid-template-columns: 1fr;
-       gap: 2rem;
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 }
 

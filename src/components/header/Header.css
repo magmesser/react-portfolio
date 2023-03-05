@@ -61,19 +61,14 @@ header {
 
 /* ===== MEDIA QUERIES ===== */
 
-/* MEDIUM DEVICES */
-@media screen and (max-width: 1024px) {
-    header {
-        /* height: 60vh; */
-    }
-}
-
 /* SMALL DEVICES */
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
     }
-    .header__socials, .scroll__down {
+
+    .header__socials,
+    .scroll__down {
         display: none;
     }
 }

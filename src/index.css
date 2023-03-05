@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&family=Shadows+Into+Light+Two&display=swap');
-  /* font-family: 'Comfortaa', cursive;
+/* font-family: 'Comfortaa', cursive;
   font-family: 'Shadows Into Light Two', cursive; */
 
 * {
@@ -12,13 +12,18 @@
   text-decoration: none;
 }
 
+h1,
+h2 {
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
 :root {
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
-  --color-light: rgba(255,255, 255, 0.6);
+  --color-light: rgba(255, 255, 255, 0.6);
 
 
   --transition: all 400ms ease;
@@ -51,7 +56,11 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 500;
 }
 
@@ -63,12 +72,13 @@ section {
   margin-top: 8rem;
 }
 
-section > h2, section > h5 {
+section>h2,
+section>h5 {
   text-align: center;
   color: var(--color-light);
 }
 
-section > h2 {
+section>h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
 }
@@ -133,7 +143,7 @@ img {
     width: var(--container-width-sm);
   }
 
-  section > h2 {
+  section>h2 {
     margin-bottom: 2rem;
   }
 }

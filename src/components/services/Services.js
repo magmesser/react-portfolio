@@ -9,8 +9,7 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container services__container">
-
-      {/* Web Development Services */}
+        {/* Web Development Services */}
         <article className="service">
           <div className="service__head">
             <h3>Web Development</h3>
@@ -47,7 +46,7 @@ const Services = () => {
           </ul>
         </article>
 
-      {/* UX/UI Services */}
+        {/* UX/UI Services */}
         <article className="service">
           <div className="service__head">
             <h3>UX/UI Design</h3>
@@ -83,7 +82,6 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        
       </div>
     </section>
   );
