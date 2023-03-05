@@ -17,69 +17,87 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>Custom Website Development</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>Website Design/Redesign</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>Database Development</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>Responsive and Mobile-First Design</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>User Experience & Design</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>E-Commerce Web Development</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>Content Management System (CMS)</p>
             </li>
+            <li>
+              <AiOutlineCheck className="service__list-icon" />
+              <p>Version Management, GitHub</p>
+            </li>
+            <li>
+              <AiOutlineCheck className="service__list-icon" />
+              <p>MERN Stack: MongoDB, Express, ReactJS, and Node.js</p>
+            </li>
+            
           </ul>
         </article>
 
         {/* UX/UI Services */}
         <article className="service">
           <div className="service__head">
-            <h3>UX/UI Design</h3>
+            <h3>Project Management</h3>
           </div>
           <ul className="service__list">
-            <li>
+          <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>Scope Management</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>Project Scheduling</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>Resource Planning</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>Issue Tracking</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>Project Reporting and Dashboards</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>Stakeholder Communication</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem</p>
+              <p>Team Engagement</p>
             </li>
+            <li>
+              <AiOutlineCheck className="service__list-icon" />
+              <p>Cost-Benefit Analysis</p>
+            </li>
+            <li>
+              <AiOutlineCheck className="service__list-icon" />
+              <p>Project Timeline Development and Management</p>
+            </li>
+            
           </ul>
         </article>
       </div>
