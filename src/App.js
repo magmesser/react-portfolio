@@ -18,7 +18,7 @@ const App = () => {
       <Experience />
       <Services />
       <Portfolio />
-      {/* <Testimonials /> */}
+      {/* <Testimonials /> When testimonials are received, enable link on App.js, import on App.js and link on Footer.js*/}
       <Contact />
       <Footer />
     </>

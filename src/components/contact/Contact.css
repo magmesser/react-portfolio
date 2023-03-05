@@ -36,6 +36,11 @@
     font-size: 0.8rem;
 }
 
+.contact__option a:hover {
+    color: var(--color-primary);
+    font-size: 1rem;
+}
+
 /* ===== FORM ===== */
 form {
     display: flex;

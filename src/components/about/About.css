@@ -35,6 +35,7 @@
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
+    margin-bottom: 0.8rem;
     text-align: center;
     transition: var(--transition);
 }
