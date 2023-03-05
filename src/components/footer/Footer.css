@@ -11,10 +11,19 @@ footer a {
 }
 
 .footer__logo {
-    font-size: 2rem;
-    font-weight: 500;
     margin-bottom: 2rem;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signature {
+    width: 25%;
+}
+
+.icon {
+    width: 0.8rem;
+    display: inline;
 }
 
 .permalinks {
@@ -53,6 +62,12 @@ footer a {
 }
 
 /* ===== MEDIA QUERIES ===== */
+/* MEDIUM DEVICES */
+@media screen and (max-width: 1024px) {
+    .signature {
+        width: 50%;
+    }
+}
 
 /* SMALL DEVICES */
 @media screen and (max-width: 600px) {
@@ -63,5 +78,9 @@ footer a {
 
     .footer__socials {
         margin-bottom: 2.6rem;
+    }
+
+    .signature {
+        width: 80%;
     }
 }

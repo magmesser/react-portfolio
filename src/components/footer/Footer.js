@@ -2,12 +2,13 @@ import React from "react";
 import "./Footer.css";
 import { BsLinkedin, BsStackOverflow } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
+import signature from "../../assets/signature.png"
+import icon from '../../assets/favicon.png'
 
 const Footer = () => {
   return (
     <footer id="footer">
-      <a href="#top" className="footer__logo">
-        MAGMESSER
+      <a href="#top" className="footer__logo"><img className="signature" src={signature} alt="signature"></img>
       </a>
 
       <ul className="permalinks">
@@ -55,7 +56,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Maggie &hearts; Messer </small>
+        <small>&copy; Maggie Messer <img className="icon" src={icon} alt='icon'></img></small>
       </div>
     </footer>
   );
