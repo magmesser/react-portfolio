@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.4e77a85a.css",
+    "main.js": "/react-portfolio/static/js/main.753b4bde.js",
+    "static/media/P1.jpg": "/react-portfolio/static/media/P1.e002405403133e3059cc.jpg",
+    "static/media/mm-sq.jpg": "/react-portfolio/static/media/mm-sq.b93137764a75c89b90d4.jpg",
+    "static/media/P5.jpg": "/react-portfolio/static/media/P5.86d04e92af916f6b5ff9.jpg",
+    "static/media/P6.jpg": "/react-portfolio/static/media/P6.a863a7c2aa00cf42275b.jpg",
+    "static/media/P3.jpg": "/react-portfolio/static/media/P3.2f94b1b6b20518fc0283.jpg",
+    "static/media/P7.jpg": "/react-portfolio/static/media/P7.cdb776740c2077db509b.jpg",
+    "static/media/P4.jpg": "/react-portfolio/static/media/P4.c09e7ae20bcd97d09cde.jpg",
+    "static/media/P2.jpg": "/react-portfolio/static/media/P2.f7a4c2b83330727feaf2.jpg",
+    "static/media/mm-rectangle.png": "/react-portfolio/static/media/mm-rectangle.40c88764b71e3a06431d.png",
+    "static/media/MaggieMesserResume2023.pdf": "/react-portfolio/static/media/MaggieMesserResume2023.16af9988b0fe0b1cd385.pdf",
+    "static/media/signature.png": "/react-portfolio/static/media/signature.43a576b66110e40d83a8.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.4e77a85a.css.map": "/react-portfolio/static/css/main.4e77a85a.css.map",
+    "main.753b4bde.js.map": "/react-portfolio/static/js/main.753b4bde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e77a85a.css",
+    "static/js/main.753b4bde.js"
+  ]
+}
