@@ -28,12 +28,12 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>20+ Worldwide</small>
+              <small>2 Academic Clients</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>40+ Completed Projects</small>
+              <small>20+ Completed Projects</small>
             </article>
           </div>
 
@@ -47,7 +47,7 @@ const About = () => {
             projects from ideation to execution.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary" style={{marginTop: "1rem"}}>
             Contact Me
           </a>
         </div>
