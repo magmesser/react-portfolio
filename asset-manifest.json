@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.941eb609.css",
-    "main.js": "/react-portfolio/static/js/main.a38e3751.js",
+    "main.css": "/react-portfolio/static/css/main.e3c2c5eb.css",
+    "main.js": "/react-portfolio/static/js/main.8ddc062b.js",
     "static/media/P1.jpg": "/react-portfolio/static/media/P1.e002405403133e3059cc.jpg",
     "static/media/mm-sq.jpg": "/react-portfolio/static/media/mm-sq.b93137764a75c89b90d4.jpg",
     "static/media/P5.jpg": "/react-portfolio/static/media/P5.86d04e92af916f6b5ff9.jpg",
@@ -11,15 +11,18 @@
     "static/media/P4.jpg": "/react-portfolio/static/media/P4.c09e7ae20bcd97d09cde.jpg",
     "static/media/P2.jpg": "/react-portfolio/static/media/P2.f7a4c2b83330727feaf2.jpg",
     "static/media/mm-rectangle.png": "/react-portfolio/static/media/mm-rectangle.40c88764b71e3a06431d.png",
+    "static/media/T2.jpeg": "/react-portfolio/static/media/T2.505861ad91226d627e34.jpeg",
     "static/media/MaggieMesserResume2023.pdf": "/react-portfolio/static/media/MaggieMesserResume2023.85c2c91ab6a423962037.pdf",
+    "static/media/T3.jpeg": "/react-portfolio/static/media/T3.7b9137899eb2c31683a8.jpeg",
     "static/media/signature.png": "/react-portfolio/static/media/signature.43a576b66110e40d83a8.png",
     "static/media/P8.jpg": "/react-portfolio/static/media/P8.e6134f30aab2164491c6.jpg",
+    "static/media/T1.jpeg": "/react-portfolio/static/media/T1.0fe9afeb1e56d877cbc9.jpeg",
     "index.html": "/react-portfolio/index.html",
-    "main.941eb609.css.map": "/react-portfolio/static/css/main.941eb609.css.map",
-    "main.a38e3751.js.map": "/react-portfolio/static/js/main.a38e3751.js.map"
+    "main.e3c2c5eb.css.map": "/react-portfolio/static/css/main.e3c2c5eb.css.map",
+    "main.8ddc062b.js.map": "/react-portfolio/static/js/main.8ddc062b.js.map"
   },
   "entrypoints": [
-    "static/css/main.941eb609.css",
-    "static/js/main.a38e3751.js"
+    "static/css/main.e3c2c5eb.css",
+    "static/js/main.8ddc062b.js"
   ]
 }
