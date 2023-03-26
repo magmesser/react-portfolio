@@ -1,11 +1,8 @@
 import React from "react";
 import "./Nav.css";
-import { BiHomeAlt } from "react-icons/bi";
-import { BsFillPersonFill } from "react-icons/bs";
-import { BsPencilSquare } from "react-icons/bs";
-import { BsCodeSquare } from "react-icons/bs";
-import { BiMessageDetail } from "react-icons/bi";
-import { BsBagCheck } from "react-icons/bs"
+import { BiHomeAlt, BiMessageDetail } from "react-icons/bi";
+import { BsFillPersonFill, BsStars, BsPencilSquare, BsCodeSquare, BsBagCheck } from "react-icons/bs";
+
 import { useState } from "react";
 
 const Nav = () => {
@@ -51,6 +48,14 @@ const Nav = () => {
         className={activeNav === "#portfolio" ? "active" : ""}
       >
         <BsCodeSquare />
+      </a>
+      {/* Testimonials */}
+      <a
+        href="#testimonials"
+        onClick={() => setActiveNav("#testimonials")}
+        className={activeNav === "#testimonials" ? "active" : ""}
+      >
+        <BsStars />
       </a>
       {/* Contact */}
       <a

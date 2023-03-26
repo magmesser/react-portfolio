@@ -1,7 +1,8 @@
 import React from "react";
 import "./Testimonials.css";
-import C1 from "../../assets/mm-sq-bw.jpg";
-import C2 from "../../assets/mm-sq.jpg";
+import T1 from "../../assets/reviews/T1.jpeg"
+import T2 from "../../assets/reviews/T2.jpeg"
+import T3 from "../../assets/reviews/T3.jpeg"
 // import required modules
 import { Pagination } from "swiper";
 // Import Swiper React components
@@ -12,17 +13,23 @@ import "swiper/css/pagination";
 
 const data = [
   {
-    photo: C1,
-    name: "Client 1",
+    photo: T1,
+    name: "Laura Crowell",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Please let me know if you need a reference for Maggie. She is an amazing person, professional and an extremely hard worker. Can perform exceptionally under pressure. Highly recommend!!!",
   },
   {
-    photo: C2,
-    name: "Client 2",
+    photo: T2,
+    name: "Joyce Jewell",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Recommend Maggie Messer 1000% - give her a shout if you're looking for someone amazing.",
   },
+  {
+    photo: T3,
+    name: "Lian Perez",
+    review:
+      "Maggie is stellar and for sure an up and coming dev you want to know and work with. You go girl!  #womenintechnology #webdevelopment #softwaredevelopment",
+  }  
 ];
 
 const Testimonials = () => {
