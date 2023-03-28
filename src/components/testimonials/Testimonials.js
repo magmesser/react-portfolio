@@ -4,7 +4,7 @@ import T1 from "../../assets/reviews/T1.jpeg"
 import T2 from "../../assets/reviews/T2.jpeg"
 import T3 from "../../assets/reviews/T3.jpeg"
 // import required modules
-import { Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -40,10 +40,14 @@ const Testimonials = () => {
 
       <Swiper
         className="container testimonials__container mySwiper"
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+}}
       >
         {data.map(({ photo, name, review }, index) => {
           return (
