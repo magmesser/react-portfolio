@@ -23,6 +23,10 @@
 }
 
 .portfolio__item h3 {
+    margin: 1.2rem 0;
+}
+
+.portfolio__item h4 {
     margin: 1.2rem 0 2rem;
 }
 
@@ -30,6 +34,20 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.about__icon {
+   font-family: 'Comfortaa', cursive;
+   font-size: 1.15rem;
+}
+
+.popover {
+    font-family: 'Comfortaa', cursive;
+    color: var(--color-bg-variant);
+}
+
+.popover__div {
+    width: 80%;
 }
 
 /* ===== MEDIA QUERIES ===== */
