@@ -1,5 +1,4 @@
   # Maggie Messer's React Portfolio
-  Challenge 20 React Challenge: React Portfolio
 
   ## Badges
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
