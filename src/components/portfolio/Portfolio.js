@@ -8,6 +8,7 @@ import P5 from "../../assets/portfolio/P5.jpg";
 import P6 from "../../assets/portfolio/P6.jpg";
 import P7 from "../../assets/portfolio/P7.jpg";
 import P8 from "../../assets/portfolio/P8.jpg";
+import P9 from "../../assets/portfolio/P9.png";
 import MouseOverPopover from "./Pop";
 
 const data = [
@@ -39,6 +40,15 @@ const data = [
       "Interactive and responsive application that assists users by providing movie and dinner options to have a fun night in. Driven by 3rd-party APIs.",
   },
   {
+    id: 9,
+    image: P9,
+    title: "Sara Juengst, PhD Portfolio",
+    github: "https://github.com/magmesser/sara-juengst",
+    demo: "https://magmesser.github.io/sara-juengst/",
+    details:
+      "Academic portfolio of Dr. Sara Juengst containing research, publications, news articles, and field work photos using React + Tailwind.",
+  },
+  {
     id: 4,
     image: P3,
     title: "The Tech Blog",
@@ -56,15 +66,15 @@ const data = [
     details:
       "J.A.T.E. is a Progressive Web Application (PWA) which will allow the user to create notes or code snippets with or without an internet connection and can be installed as an application on the user's local machine.",
   },
-  {
-    id: 6,
-    image: P5,
-    title: "Lord of The Employees",
-    github: "https://github.com/magmesser/employee-tracker",
-    demo: "https://drive.google.com/file/d/1y76_hulzSaqx4xzvBzC-JCHqLmHkWm3F/view",
-    details:
-      "Command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL. Video tutorial provided as this is a command-line application and not a live site.",
-  },
+  // {
+  //   id: 6,
+  //   image: P5,
+  //   title: "Lord of The Employees",
+  //   github: "https://github.com/magmesser/employee-tracker",
+  //   demo: "https://drive.google.com/file/d/1y76_hulzSaqx4xzvBzC-JCHqLmHkWm3F/view",
+  //   details:
+  //     "Command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL. Video tutorial provided as this is a command-line application and not a live site.",
+  // },
   {
     id: 7,
     image: P6,
