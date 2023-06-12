@@ -44,7 +44,7 @@ const data = [
     image: P9,
     title: "Sara Juengst, PhD Portfolio",
     github: "https://github.com/magmesser/sara-juengst",
-    demo: "https://magmesser.github.io/sara-juengst/",
+    demo: "https://www.sarajuengst.com/",
     details:
       "Academic portfolio of Dr. Sara Juengst containing research, publications, news articles, and field work photos using React + Tailwind.",
   },
