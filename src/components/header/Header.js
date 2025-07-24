@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import CTA from "./CTA";
+import CTA from "./CTAresume";
 import Me from "../../assets/mm-rectangle.png";
 import HeaderSocials from "./HeaderSocials";
 

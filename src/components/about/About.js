@@ -23,28 +23,22 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>10+ Years Working</small>
+              <small>10+ Years Insurance + 4 Years PM and Data</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>2 Academic Clients</small>
+              <small>2 Web Development Clients</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>20+ Completed Projects</small>
+              <small>20+ Development Projects</small>
             </article>
           </div>
 
           <p>
-            Full Stack Web Developer with background in project management and
-            anthropology and a thirst for knowledge. Earned a certificate in
-            Full Stack Web Development from the University of Central Florida
-            Coding Boot Camp. Innovative problem-solver who is passionate about
-            developing apps with a focus on mobile-first design and development.
-            Strengths in timeline and scope management, teamwork, and building
-            projects from ideation to execution.
+            Highly motivated and results-oriented professional with extensive experience in the insurance industry and a proven track record of success in data analysis, web development, project management, and operations management. Skilled in organizing data for system integrations and adept at innovative problem-solving. Possesses a Bachelor of Science degree from Florida State University and a Certificate in Full Stack Web Development from the University of Central Florida.
           </p>
 
           <a href="#contact" className="btn btn-primary" style={{marginTop: "1rem"}}>

@@ -58,7 +58,7 @@ const Services = () => {
         {/* UX/UI Services */}
         <article className="service">
           <div className="service__head">
-            <h3>Project Management</h3>
+            <h3>Project Management and Data Analysis</h3>
           </div>
           <ul className="service__list">
           <li>
@@ -83,11 +83,11 @@ const Services = () => {
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Stakeholder Communication</p>
+              <p>Systems Integrations</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
-              <p>Team Engagement</p>
+              <p>Data Analysis</p>
             </li>
             <li>
               <AiOutlineCheck className="service__list-icon" />
