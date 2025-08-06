@@ -37,17 +37,30 @@
 /* MEDIUM DEVICES */
 @media screen and (max-width: 1024px) {
     .container.testimonial__container {
-        width: 60%;
+        width: 80%;
+        padding-bottom: 1rem;
+    }
+   
+    .testimonial {
+        padding-inline: .1rem;
     }
 }
 
 /* SMALL DEVICES */
 @media screen and (max-width: 600px) {
+   
     .container.testimonial__container {
         width: var(--container-width-sm);
     }
 
+    .testimonial {
+        padding-inline: .1rem;
+    }
+
     .client__review {
         width: var(--container-width-sm);
+        font-size: x-small;
     }
+
+   
 }
