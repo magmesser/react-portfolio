@@ -26,6 +26,10 @@ footer a {
     display: inline;
 }
 
+.icon:hover {
+    width: 10%;
+}
+
 .permalinks {
     display: flex;
     flex-wrap: wrap;
